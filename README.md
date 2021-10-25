@@ -1,2 +1,2 @@
 # SVM
-A sumple support vector machine
+A simple support vector machine
