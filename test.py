@@ -1,4 +1,3 @@
-# Imports
 from sklearn import datasets
 import matplotlib.pyplot as plt
 from main import SVM
@@ -10,7 +9,6 @@ y = np.where(y == 0, -1, 1)
 
 clf = SVM()
 clf.fit(X, y)
-# predictions = clf.predict(X)
 
 print(clf.w, clf.b)
 
